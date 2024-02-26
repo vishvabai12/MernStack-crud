@@ -1,0 +1,76 @@
+.SignupPage {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Asset/loginbg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.SignupContainer {
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+}
+
+.SignupContainer input[type="text"],
+.SignupContainer input[type="email"],
+.SignupContainer input[type="password"],
+.SignupContainer select,
+.SignupContainer button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #e50914;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+.SignupContainer select {
+    appearance: none;
+    /* background: url('down-arrow.png') no-repeat right; */
+    background-size: 20px;
+    padding-right: 40px;
+}
+
+.SignupContainer button {
+    background-color: #e50914;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.SignupContainer button:hover {
+    background-color: #ff3e25;
+}
+
+.SignupContainer label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.SignupContainer .footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.SignupContainer .footer a {
+    color: #999;
+}
+
+.SignupContainer .footer a:hover {
+    color: #fff;
+}
